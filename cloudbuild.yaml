@@ -6,6 +6,6 @@ steps:
   args:
   - '-c'
   - |
-        ls
+        ls -laR
 images:
 - 'gcr.io/$PROJECT_ID/quickstart-image'
